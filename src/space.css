@@ -1,0 +1,129 @@
+.filter-btn{
+    margin: auto;
+    background-color: #75c729b8;
+    border-radius: 5px;
+    width: 34%;
+}
+.filter-selected{
+    background-color:#279c42c4;
+    margin: auto;
+    border-radius: 5px;
+    width: 34%;
+}
+#outer-comp {
+  background-color: #cccccc73;
+}
+#filter-comp{
+    background-color: #fff;
+}
+
+.image-outer{
+    background-color: #cccccc3b;
+    margin: 12px;
+}
+#ind-card {
+    margin: 5px;
+  }
+#mid-head{
+    font-size: 14px;
+    font-weight: bolder;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  #filter-head{
+    text-align: center;
+    padding: 5px;
+    border-bottom: groove 2px;
+    margin-bottom: 8px;
+  }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #main-head {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #footer-head{
+            font-size: 25px;
+            font-weight: bolder;
+        }
+        #footer-head-name{
+            font-size:28px
+        }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #main-head {
+        font-size: 35px;
+        font-weight: bold;
+    }
+    #footer-head{
+        font-size: 14px;
+        font-weight: bolder;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #main-head {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    #footer-head{
+        font-size: 14px;
+        font-weight: bolder;
+        text-align:"center";
+    }
+    #footer-head-name{
+        font-size:14px
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #main-head {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    #footer-head{
+        font-size: 14px;
+        font-weight: bolder;
+    }
+    #footer-head-name{
+        font-size:14px
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #main-head {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    #footer-head{
+        font-size: 14px;
+        font-weight: bolder;
+    }
+    #footer-head-name{
+        font-size:14px
+    }
+}
